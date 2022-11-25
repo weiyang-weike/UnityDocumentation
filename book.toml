@@ -1,0 +1,23 @@
+[book]
+authors = ["Yang"]
+language = "en"
+title = "Weike SDK Documentation"
+description = "Weike SDK Documentation on Unity Engine"
+multilingual = false
+src = "src"
+
+[output.html] 
+default-theme = "ayu"  
+
+[output.html.print]
+enable = true    # include support for printable output
+page-break = true # insert page-break after each chapter
+
+[output.html.fold]
+enable = true    # whether or not to enable section folding
+
+[output.html.playground]
+editable = true         # allows editing the source code
+copyable = true          # include the copy button for copying code snippets
+copy-js = true           # includes the JavaScript for the code editor
+line-numbers = true     # displays line numbers for editable code
